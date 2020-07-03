@@ -43,15 +43,15 @@ function InfoFooter() {
           </Col>
           <Col md="2">
           </Col>
-          <Col md="2" style={{paddingLeft: "15px"}}>
+          <Col md="2" style={{paddingLeft: "15px", paddingBottom: "20px"}}>
             <h5 style={{color: "white", fontSize: "15px"}}>
               MENU
             </h5>
             <div style={{fontSize: "13px", opacity: "30%"}}>
               <Link to='/home'>
-              <a style={{color: "white"}}>
-                HOME
-              </a>
+                <a style={{color: "white"}}>
+                  HOME
+                </a>
               </Link>
               <p style={{marginTop: "-10px"}}></p>
               <Link to='/our-approach'>
@@ -59,24 +59,24 @@ function InfoFooter() {
                   OUR APPROACH
                 </a>
               </Link>
-                <p style={{marginTop: "-10px"}}></p>
-                <Link to='/our-approach'>
-                  <a style={{color: "white"}}>
-                    OUR TEAM
-                  </a>
-                </Link>
-                  <p style={{marginTop: "-10px"}}></p>
-                  <Link to='/contact'>
+              <p style={{marginTop: "-10px"}}></p>
+              <Link to='/our-approach'>
+                <a style={{color: "white"}}>
+                  OUR TEAM
+                </a>
+              </Link>
+              <p style={{marginTop: "-10px"}}></p>
+              <Link to='/contact'>
 
-                    <a style={{color: "white"}}>
-                      CONTACT US
-                    </a>
-                    </Link>
-                    <p style={{marginTop: "-10px"}}></p>
-                      <a target="_blank" href="https://arcgroup.co/" style={{color: "inherit"}}>
-                        ARC GLOBAL
-                      </a>
-                      <p style={{marginTop: "-10px"}}></p>
+                <a style={{color: "white"}}>
+                  CONTACT US
+                </a>
+              </Link>
+              <p style={{marginTop: "-10px"}}></p>
+              <a target="_blank" href="https://arcgroup.co/" style={{color: "inherit"}}>
+                ARC GLOBAL
+              </a>
+              <p style={{marginTop: "-10px"}}></p>
               <a target="_blank" href="https://www.facebook.com/ARC-Ride-100580288315491" style={{color: "inherit"}}>
                 FACEBOOK
               </a>
@@ -89,9 +89,9 @@ function InfoFooter() {
 
 
               <p style={{marginTop: "-10px"}}></p>
-                <a target="_blank" href="https://twitter.com/arc_ride" style={{color: "inherit"}}>
-                  TWITTER
-                </a>
+              <a target="_blank" href="https://twitter.com/arc_ride" style={{color: "inherit"}}>
+                TWITTER
+              </a>
             </div>
           </Col>
           <Col md="3" style={{paddingLeft: "15px"}}>
