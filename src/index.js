@@ -11,7 +11,7 @@ import About from './About.js'
 import Contact from './Contact.js'
 import PillarPage from './PillarPage.js'
 
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect, HashRouter } from "react-router-dom";
 import { createStore } from 'redux'
 
 // styles
@@ -23,7 +23,7 @@ import "./assets/demo/demo.css";
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <Route
         path="/home"
@@ -38,13 +38,11 @@ ReactDOM.render(
         path="/contact"
         render={(props) => <Contact {...props} />}
       />
-      <Route
-        render={(props) => <LandingPage {...props} />}
-      />
+
 
       <Redirect from="/" to="/home" />
     </Switch>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );
 // If you want your app to work offline and load faster, you can change
