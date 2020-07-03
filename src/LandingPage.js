@@ -64,11 +64,6 @@ function LandingPage() {
     };
   }, []);
 
-
-
-
-
-
   return (
     <>
 
