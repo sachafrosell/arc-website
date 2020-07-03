@@ -50,19 +50,16 @@ function ExamplesNavbar(props) {
           <div className="navbar-translate" style={{position: "absolute", top: "8px"}}>
 
             <NavbarBrand style={{padding: "0px"}}>
-              <Link to="/home">
-                <img
-                  src={Logo}
-                  style={{
+              <img
+                src={Logo}
+                style={{
                     width: "110px",
                     position: "10px"
-                  }}
-                >
-                </img>
-              </Link>
-
+                }}
+              >
+              </img>
             </NavbarBrand>
-            {dimensions.width > 450 ? <Nav style={{float: "right", marginRight: "-950px"}}>
+            {dimensions.width >= 1200 ? <Nav style={{float: "right", marginRight: "-950px"}}>
               <NavItem>
                 <Link to="/home" >
                   <Button
@@ -78,9 +75,9 @@ function ExamplesNavbar(props) {
                     }} onClick={props.forceUpdate} > HOME </Button>
                 </Link>
               </NavItem>
-                <NavItem>
-                  <Link to="/our-approach">
-                    <Button style={{
+              <NavItem>
+                <Link to="/our-approach">
+                  <Button style={{
                       background: "none",
                       color: ButtonColor,
                       position: "relative",
@@ -89,12 +86,12 @@ function ExamplesNavbar(props) {
                       borderRadius: "0px",
                       padding: "15px",
                       marginTop: "20px"
-                    }} > APPROACH </Button>
-                  </Link>
-                </NavItem>
-                <NavItem>
-                  <Link to="/contact">
-                    <Button style={{
+                  }} > APPROACH </Button>
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/contact">
+                  <Button style={{
                       background: "none",
                       color: ButtonColor,
                       position: "relative",
@@ -103,14 +100,109 @@ function ExamplesNavbar(props) {
                       borderRadius: "0px",
                       padding: "15px",
                       marginTop: "20px"
-                    }} > GET IN TOUCH </Button>
-                  </Link>
-                </NavItem>
+                  }} > GET IN TOUCH </Button>
+                </Link>
+              </NavItem>
 
 
 
             </Nav>
- : ""}
+            : dimensions.width >= 992 && dimensions.width < 1200 ? <Nav style={{float: "right", marginRight: "-800px"}}>
+              <NavItem>
+                <Link to="/home" >
+                  <Button
+                    style={{
+                      background: "none",
+                      color: ButtonColor,
+                      position: "relative",
+                      float: "right",
+                      fontSize: "15px",
+                      borderRadius: "0px",
+                      padding: "15px",
+                      marginTop: "20px"
+                    }} onClick={props.forceUpdate} > HOME </Button>
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/our-approach">
+                  <Button style={{
+                      background: "none",
+                      color: ButtonColor,
+                      position: "relative",
+                      float: "right",
+                      fontSize: "15px",
+                      borderRadius: "0px",
+                      padding: "15px",
+                      marginTop: "20px"
+                  }} > APPROACH </Button>
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/contact">
+                  <Button style={{
+                      background: "none",
+                      color: ButtonColor,
+                      position: "relative",
+                      float: "right",
+                      fontSize: "15px",
+                      borderRadius: "0px",
+                      padding: "15px",
+                      marginTop: "20px"
+                  }} > GET IN TOUCH </Button>
+                </Link>
+              </NavItem>
+
+
+
+            </Nav> : dimensions.width >= 768 && dimensions.width < 992 ? <Nav style={{float: "right", marginRight: "-350px"}}>
+              <NavItem>
+                <Link to="/home" >
+                  <Button
+                    style={{
+                      background: "none",
+                      color: ButtonColor,
+                      position: "relative",
+                      float: "right",
+                      fontSize: "15px",
+                      borderRadius: "0px",
+                      padding: "15px",
+                      marginTop: "20px"
+                    }} onClick={props.forceUpdate} > HOME </Button>
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/our-approach">
+                  <Button style={{
+                      background: "none",
+                      color: ButtonColor,
+                      position: "relative",
+                      float: "right",
+                      fontSize: "15px",
+                      borderRadius: "0px",
+                      padding: "15px",
+                      marginTop: "20px"
+                  }} > APPROACH </Button>
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/contact">
+                  <Button style={{
+                      background: "none",
+                      color: ButtonColor,
+                      position: "relative",
+                      float: "right",
+                      fontSize: "15px",
+                      borderRadius: "0px",
+                      padding: "15px",
+                      marginTop: "20px"
+                  }} > GET IN TOUCH </Button>
+                </Link>
+              </NavItem>
+
+
+
+            </Nav> :  ""}
+
             <div class="topnav-right" style={{paddingRight: "150px", marginTop: "-10px"}}>
 
 
@@ -120,10 +212,9 @@ function ExamplesNavbar(props) {
 
 
             </div>
-
           </div>
 
-          </Container>
+        </Container>
       </Navbar>
     </>
   );

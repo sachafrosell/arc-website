@@ -121,14 +121,14 @@ function ExamplesNavbar(props) {
           <div className="navbar-translate" style={{position: "absolute", top: "8px"}}>
 
             <NavbarBrand style={{padding: "0px"}}>
-                <img
-                  src={colors.logo}
-                  style={{
+              <img
+                src={colors.logo}
+                style={{
                     width: "110px",
                     position: "10px"
-                  }}
-                >
-                </img>
+                }}
+              >
+              </img>
             </NavbarBrand>
             {dimensions.width >= 1200 ? <Nav style={{float: "right", marginRight: "-950px"}}>
               <NavItem>
@@ -146,9 +146,9 @@ function ExamplesNavbar(props) {
                     }} onClick={props.forceUpdate} > HOME </Button>
                 </Link>
               </NavItem>
-                <NavItem>
-                  <Link to="/our-approach">
-                    <Button style={{
+              <NavItem>
+                <Link to="/our-approach">
+                  <Button style={{
                       background: "none",
                       color: colors.bCol,
                       position: "relative",
@@ -157,12 +157,12 @@ function ExamplesNavbar(props) {
                       borderRadius: "0px",
                       padding: "15px",
                       marginTop: "20px"
-                    }} > APPROACH </Button>
-                  </Link>
-                </NavItem>
-                <NavItem>
-                  <Link to="/contact">
-                    <Button style={{
+                  }} > APPROACH </Button>
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/contact">
+                  <Button style={{
                       background: "none",
                       color: colors.bCol,
                       position: "relative",
@@ -171,9 +171,9 @@ function ExamplesNavbar(props) {
                       borderRadius: "0px",
                       padding: "15px",
                       marginTop: "20px"
-                    }} > GET IN TOUCH </Button>
-                  </Link>
-                </NavItem>
+                  }} > GET IN TOUCH </Button>
+                </Link>
+              </NavItem>
 
 
 
@@ -194,9 +194,9 @@ function ExamplesNavbar(props) {
                     }} onClick={props.forceUpdate} > HOME </Button>
                 </Link>
               </NavItem>
-                <NavItem>
-                  <Link to="/our-approach">
-                    <Button style={{
+              <NavItem>
+                <Link to="/our-approach">
+                  <Button style={{
                       background: "none",
                       color: colors.bCol,
                       position: "relative",
@@ -205,12 +205,12 @@ function ExamplesNavbar(props) {
                       borderRadius: "0px",
                       padding: "15px",
                       marginTop: "20px"
-                    }} > APPROACH </Button>
-                  </Link>
-                </NavItem>
-                <NavItem>
-                  <Link to="/contact">
-                    <Button style={{
+                  }} > APPROACH </Button>
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/contact">
+                  <Button style={{
                       background: "none",
                       color: colors.bCol,
                       position: "relative",
@@ -219,9 +219,9 @@ function ExamplesNavbar(props) {
                       borderRadius: "0px",
                       padding: "15px",
                       marginTop: "20px"
-                    }} > GET IN TOUCH </Button>
-                  </Link>
-                </NavItem>
+                  }} > GET IN TOUCH </Button>
+                </Link>
+              </NavItem>
 
 
 
@@ -241,9 +241,9 @@ function ExamplesNavbar(props) {
                     }} onClick={props.forceUpdate} > HOME </Button>
                 </Link>
               </NavItem>
-                <NavItem>
-                  <Link to="/our-approach">
-                    <Button style={{
+              <NavItem>
+                <Link to="/our-approach">
+                  <Button style={{
                       background: "none",
                       color: colors.bCol,
                       position: "relative",
@@ -252,12 +252,12 @@ function ExamplesNavbar(props) {
                       borderRadius: "0px",
                       padding: "15px",
                       marginTop: "20px"
-                    }} > APPROACH </Button>
-                  </Link>
-                </NavItem>
-                <NavItem>
-                  <Link to="/contact">
-                    <Button style={{
+                  }} > APPROACH </Button>
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/contact">
+                  <Button style={{
                       background: "none",
                       color: colors.bCol,
                       position: "relative",
@@ -266,9 +266,9 @@ function ExamplesNavbar(props) {
                       borderRadius: "0px",
                       padding: "15px",
                       marginTop: "20px"
-                    }} > GET IN TOUCH </Button>
-                  </Link>
-                </NavItem>
+                  }} > GET IN TOUCH </Button>
+                </Link>
+              </NavItem>
 
 
 
@@ -285,7 +285,7 @@ function ExamplesNavbar(props) {
             </div>
           </div>
 
-          </Container>
+        </Container>
       </Navbar>
     </>
   );
