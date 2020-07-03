@@ -117,30 +117,7 @@ function Team() {
 
               </div>
             </Col>
-            <Col md="3" style={{width:"25%"}}>
-              <div className="team-player">
-                <img
-                  alt="..."
-                  className="rounded-square img-fluid img-raised"
-                  src={require("./assets/img/karl-boyce.jpg")}
-                ></img>
-                <h6 className="title" style={{fontSize: "15px"}}>Karl Boyce</h6>
-                <p style={{fontSize: "13px", color:"#9A9A9A"}}>FOUNDER / DIRECTOR</p>
-
-              </div>
-            </Col>
-            <Col md="3" style={{width:"25%"}}>
-              <div className="team-player">
-                <img
-                  alt="..."
-                  className="rounded-square img-fluid img-raised"
-                  src={require("./assets/img/richard-bouma.jpg")}
-                ></img>
-                <h6 className="title" style={{fontSize: "15px"}}>Richard Bouma</h6>
-                <p style={{fontSize: "13px", color:"#9A9A9A"}}>CHAIRMAN</p>
-
-              </div>
-            </Col>
+            
 
           </Row>
         </div>
