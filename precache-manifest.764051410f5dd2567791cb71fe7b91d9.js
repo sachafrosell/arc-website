@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55e44adf6b8100a965132d008a50264d",
+    "revision": "8c46316e34c0ff68f81a2741d898e79a",
     "url": "/index.html"
   },
   {
-    "revision": "f376f9a313e20a8eeeac",
+    "revision": "877f637e9639e0facb74",
     "url": "/static/css/main.64cdcd56.chunk.css"
   },
   {
-    "revision": "1f9ea4ba4c1b3f016e4c",
-    "url": "/static/js/2.c9a59892.chunk.js"
+    "revision": "b007d62d1147516cb2a0",
+    "url": "/static/js/2.266f75e2.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/static/js/2.c9a59892.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.266f75e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f376f9a313e20a8eeeac",
-    "url": "/static/js/main.6ce8a77a.chunk.js"
+    "revision": "877f637e9639e0facb74",
+    "url": "/static/js/main.3c8bfbfc.chunk.js"
   },
   {
     "revision": "f4295841b58a8dc03313",
@@ -64,10 +64,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/joanna-cheong.0fd4fd48.jpg"
   },
   {
-    "revision": "d8ad5e380efa90c2f4c98fc929f68b42",
-    "url": "/static/media/karl-boyce.d8ad5e38.jpg"
-  },
-  {
     "revision": "fa0e7ae1bc4ec4133b902b1adcdbf32c",
     "url": "/static/media/kigali-city-4.fa0e7ae1.jpg"
   },
@@ -98,10 +94,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ebec31f5ce59f908db84d86aed5947f",
     "url": "/static/media/nucleo-outline.8ebec31f.woff2"
-  },
-  {
-    "revision": "24fe03c1c679cd37e95b907ff21a3168",
-    "url": "/static/media/richard-bouma.24fe03c1.jpg"
   },
   {
     "revision": "72649299c2322e683d0a3f2871a48f2a",
