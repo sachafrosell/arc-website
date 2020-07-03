@@ -32,15 +32,18 @@ ReactDOM.render(
       <Route
         path="/our-approach"
         render={(props) => <PillarPage {...props} />}
-        />
+      />
 
-        <Route
-          path="/contact"
-          render={(props) => <Contact {...props} />}
-        />
+      <Route
+        path="/contact"
+        render={(props) => <Contact {...props} />}
+      />
+      <Route
+        render={(props) => <LandingPage {...props} />}
+      />
 
       <Redirect from="/" to="/home" />
-      </Switch>
+    </Switch>
   </BrowserRouter>,
   document.getElementById("root")
 );
